@@ -10,13 +10,13 @@ const[padding,setPadding]=useState(5);
     <div id="main">
       <div>
         {/* add input elememnts inside here */}
-        <label for="contenInput">Content </label>
+        Content 
         <input type="text" value={text} id='contentInput' onChange={(e)=> setText(e.target.value)}></input>
         <br/>
-        <label for="paddingInput">Padding </label>
+        Padding 
         <input type="number" value={padding} id='paddingInput' onChange={(e) => setPadding(e.target.value)}></input>
         <br/>
-        <label for="fontSizeInput">Font Size </label>
+        Font Size 
         <input type="number" value={font} id='fontSizeInput' onChange={(e) => setFont(e.target.value)}></input>
         <br/>
       </div>
