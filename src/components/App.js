@@ -63,6 +63,7 @@ useEffect(() => {
       </div>
  
  {/* render Preview component here */}
+      {/* <Preview fontSize={font} content={text} padding={padding} /> */}
       <Preview fontSize={fontSize.fontSize} content={text} padding={pad.padding} />
     </div>
   )
